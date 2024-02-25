@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 20%;
+}
+
+
+
+h3{
+    text-align: center;
+    color:rgb(57, 118, 57);
+    border: 1px solid ;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+table,td,th
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th:nth-child(even),td:nth-child(even){
+    background-color: rgb(175, 222, 103);
+    }
+th:nth-child(odd),td:nth-child(odd)
+{
+    background-color: rgb(233, 244, 218);
+}
+
+td{
+    height:20px;
+    }
+.mainHeading{
+    text-align: center;
+    color: white;
+    }
