@@ -1,4 +1,4 @@
 # IIDT-FSD-internship Weekly Assignments
-Assignment 1 - webpage using HTML,CSS and Java script to change the text color using Button
+Assignment  - webpage using HTML,CSS and Java script to change the text color using Button
 
-Assignment 2 - Create a table Using HTML, CSS
+Assignment 1 - Create a table Using HTML, CSS
