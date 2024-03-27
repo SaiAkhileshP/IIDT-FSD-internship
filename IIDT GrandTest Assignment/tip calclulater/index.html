@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <form action="">
+        <span>Bill Amount : </span> <input type="text" id="input1">
+        <span>Service quality : </span> <input type="text" id="input2">
+        <span>Number of people : </span> <input type="text" id="input3">
+
+        <button id="btn" onclick="fun()" type="button">Calculate</button>
+        <p>Tip : </p>
+        <p id="output"></p>
+    </form>
+
+</head>
+<body>
+    <script>
+        const fun = () =>{
+            const billAmout = document.getElementById("input1").value
+            const serviceQuality = document.getElementById("input2").value
+            const number_of_people = document.getElementById("input3").value
+            const output = document.getElementById("output")
+           output.innerText = (billAmout * (serviceQuality/100) / number_of_people)
+            console.log(billAmout)
+        }
+    </script>
+</body>
+</html>
